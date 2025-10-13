@@ -1,9 +1,9 @@
 import { useContext } from "react";
-import HomeContext from "../../../context/HomeContext";
+import HomeContext from "../../../hooks/context";
 
 const Faq = () => {
 
-    const {faqData, activeFaq, setActiveFaq} = useContext(HomeContext);
+    const { faqData, activeFaq, setActiveFaq } = useContext(HomeContext);
 
     return (
         <section id='faq' className='relative'>

@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { OfferSection, H2, Button, CardContainer } from "../style-tailwind/Offer";
 import ListLoop from "./CardPrice";
-import HomeContext from "../../../context/HomeContext";
+import HomeContext from "../../../hooks/context";
 
 const Offer = () => {
     const { abonment, handleAbonmentChange, priceDisplay } = useContext(HomeContext);

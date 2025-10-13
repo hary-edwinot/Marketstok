@@ -7,7 +7,8 @@ import Featurs from './components/Featurs';
 import Dash from './components/Dash';
 import Offer from './components/Offer';
 import Faq from './components/Faq';
-import HomeContext from '../../context/HomeContext';
+import HomeContext from '../../hooks/context';
+
 
 
 const faqData = [
